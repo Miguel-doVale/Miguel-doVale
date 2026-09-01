@@ -22,7 +22,7 @@ jobs:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=dracula&bg_color=000000&title_color=00F0FF&icon_color=00F0FF&text_color=C9D1D9&border_color=0A1A2F&hide_border=true
           path: assets/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_TOKEN }}
 
       - name: Gerar top-langs card
         uses: readme-tools/github-readme-stats-action@v1
