@@ -1,0 +1,31 @@
+name: update stats
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 3 * * *"  # todo dia às 03:00 UTC (~00:00 em São Luís)
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Baixar os SVGs mais recentes
+        run: |
+          mkdir -p assets
+          curl -sf "https://github-readme-stats.vercel.app/api?username=Miguel-doVale&show_icons=true&theme=dracula&bg_color=000000&title_color=00F0FF&icon_color=00F0FF&text_color=C9D1D9&border_color=0A1A2F&hide_border=true" -o assets/stats.svg || echo "stats.svg falhou, mantendo o anterior"
+          curl -sf "https://github-readme-stats.vercel.app/api/top-langs/?username=Miguel-doVale&layout=compact&theme=dracula&bg_color=000000&title_color=00F0FF&text_color=C9D1D9&border_color=0A1A2F&hide_border=true" -o assets/top-langs.svg || echo "top-langs.svg falhou, mantendo o anterior"
+          curl -sf "https://streak-stats.demolab.com?user=Miguel-doVale&theme=dracula&background=000000&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF&border=0A1A2F&hide_border=true" -o assets/streak.svg || echo "streak.svg falhou, mantendo o anterior"
+          curl -sf "https://github-profile-trophy.vercel.app/?username=Miguel-doVale&theme=darkhub&no-frame=true&row=1&column=6&margin-w=10" -o assets/trophy.svg || echo "trophy.svg falhou, mantendo o anterior"
+
+      - name: Commitar só se algo mudou
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/top-langs.svg assets/streak.svg assets/trophy.svg
+          git diff --cached --quiet || git commit -m "chore: atualiza metricas do perfil"
+          git push

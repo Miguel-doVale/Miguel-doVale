@@ -114,18 +114,20 @@ class Miguel:
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=Miguel-doVale&show_icons=true&theme=dracula&bg_color=000000&title_color=00F0FF&icon_color=00F0FF&text_color=C9D1D9&border_color=0A1A2F&hide_border=true"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Miguel-doVale&layout=compact&theme=dracula&bg_color=000000&title_color=00F0FF&text_color=C9D1D9&border_color=0A1A2F&hide_border=true"/>
+<img height="165em" src="assets/stats.svg"/>
+<img height="165em" src="assets/top-langs.svg"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=Miguel-doVale&theme=dracula&background=000000&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF&border=0A1A2F&hide_border=true" />
+<img src="assets/streak.svg" />
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Miguel-doVale&theme=darkhub&no-frame=true&row=1&column=6&margin-w=10" />
+<img src="assets/trophy.svg" />
 
 </div>
+
+> 🔧 *Essas 4 imagens são geradas pela Action `update-stats.yml` e salvas aqui no repo — não dependem do serviço externo estar no ar no momento em que alguém visita seu perfil.*
 
 <br/>
 
