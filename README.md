@@ -123,11 +123,9 @@ class Miguel:
 
 <br/>
 
-<img src="assets/trophy.svg" />
-
 </div>
 
-> 🔧 *Essas 4 imagens são geradas pela Action `update-stats.yml` e salvas aqui no repo — não dependem do serviço externo estar no ar no momento em que alguém visita seu perfil.*
+> 🔧 *Essas 3 imagens são geradas pela Action `update-stats.yml` e salvas aqui no repo — não dependem do serviço externo estar no ar no momento em que alguém visita seu perfil.*
 
 <br/>
 

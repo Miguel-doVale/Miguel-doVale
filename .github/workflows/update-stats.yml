@@ -32,15 +32,6 @@ jobs:
           path: assets/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Gera o troféu dentro da Action também (menos oficial que a de cima,
-      # mas documentada no próprio projeto ryo-ma/github-profile-trophy)
-      - name: Gerar trophy card
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
-        with:
-          username: ${{ github.repository_owner }}
-          output_path: assets/trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       # O streak-stats.demolab.com já funcionou nos nossos testes,
       # então mantém via curl mesmo (com retry por segurança)
       - name: Baixar streak
