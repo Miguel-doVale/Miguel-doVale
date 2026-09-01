@@ -31,11 +31,11 @@ class Miguel:
         return "Always On Top"
 ```
 
-- Co-fundador da **[DMG — Damage Group](#)**, atuando como **CFO**, cuidando de finanças, infra e decisões técnicas do grupo
-- Membro da **LADG** (Liga Acadêmica de Desenvolvimento de Games) e da **LARP** (Liga Acadêmica de Robótica e Programação) na UNDB
-- **Hardware e Robótica** — muito além de só código na tela
-- **Linux** no dia a dia
-- Estudando trilha de **cibersegurança** com foco em desenvolvimento na área
+🏢 Co-fundador da **[DMG — Damage Group](#)**, atuando como **CFO** — finanças, infra e decisões técnicas do grupo
+🎮 Ligante na **LADG** e gestor na **LARP** e na **SH**, dentro do ecossistema de ligas da UNDB
+🤖 **Hardware e Robótica** — muito além de só código na tela
+🐧 **Linux** no dia a dia
+🔐 Trilha de **cibersegurança** em andamento, com foco em desenvolvimento na área
 
 <br/>
 
@@ -87,7 +87,7 @@ class Miguel:
 <br/>
 
 <details>
-<summary align="center"><b>>_ arsenal_completo.exe (mais coisas que já usei)</b></summary>
+<summary align="center"><b>Mais Stack (clique pra abrir)</b></summary>
 
 <br/>
 
@@ -155,6 +155,10 @@ class Miguel:
 
 **Co-founder · CFO** — finanças, infraestrutura e decisões técnicas do grupo
 
+- Um dos três fundadores, também atuando como Gerente de TI e Financeiro
+- Grupo trabalha na própria sala da Software House (SH), dentro da UNDB
+- Foco em desenvolver produtos próprios e prestar serviços de software para clientes reais
+
 ![DMG](https://img.shields.io/badge/status-ativo-E30613?style=for-the-badge&logoColor=white)
 
 <br/><br/>
@@ -165,9 +169,13 @@ class Miguel:
 
 <img src="assets/sh_logo.png" width="110"/>
 
-Escritório-escola da UNDB — projetos reais em squads, sob orientação e prática de mercado
+**Gestor** — escritório-escola da UNDB
 
-![SH](https://img.shields.io/badge/membro-ativo-FF2E9F?style=for-the-badge&logoColor=white)
+- Alunos desenvolvem sites, apps e sistemas sob medida, incluindo clientes reais (ex: EMAP/Porto do Itaqui)
+- Organização por squads de projeto, com formações internas (React Native + Expo, UX) e oficinas externas
+- Realiza o IT Games (campeonato de Valorant) e o IT Works (ciclo de palestras)
+
+![SH](https://img.shields.io/badge/gestor-FF2E9F?style=for-the-badge&logoColor=white)
 
 <br/><br/>
 
@@ -177,9 +185,13 @@ Escritório-escola da UNDB — projetos reais em squads, sob orientação e prá
 
 <img src="assets/ladg_logo.jpg" width="110"/>
 
-Liga Acadêmica de Desenvolvimento de Games — "Level Up Your Dreams"
+**Ligante** — Liga Acadêmica de Desenvolvimento de Games, "Level Up Your Dreams"
 
-![LADG](https://img.shields.io/badge/membro-ativo-6C2BD9?style=for-the-badge&logoColor=white)
+- Criação de jogos do conceito à publicação: programação, arte, narrativa e gestão
+- Organiza a UNDB GameJam e participa do IT Games e do Giro de Profissões
+- Projeto de destaque: **"Caçadores de Verdades"**, jogo educativo sobre fake news levado a escolas públicas, com patrocínio do Governo do MA
+
+![LADG](https://img.shields.io/badge/ligante-6C2BD9?style=for-the-badge&logoColor=white)
 
 <br/><br/>
 
@@ -189,9 +201,13 @@ Liga Acadêmica de Desenvolvimento de Games — "Level Up Your Dreams"
 
 <img src="assets/larp_logo.png" width="110"/>
 
-Liga Acadêmica de Robótica e Programação — hardware, automação e projetos práticos
+**Gestor** — Liga Acadêmica de Robótica e Programação
 
-![LARP](https://img.shields.io/badge/membro-ativo-F2B705?style=for-the-badge&logoColor=black)
+- Projetos práticos de robótica, eletrônica e automação, com aulas internas ministradas pelos próprios membros
+- Oficinas de Robô Sumô com LEGO Mindstorms/EV3, em parceria com Phoenix Robot/SESI
+- Prêmio de melhor short paper no Encontro Científico UNDB, com pesquisa em robótica educacional
+
+![LARP](https://img.shields.io/badge/gestor-F2B705?style=for-the-badge&logoColor=black)
 
 </div>
 
@@ -200,7 +216,7 @@ Liga Acadêmica de Robótica e Programação — hardware, automação e projeto
 ---
 
 <details>
-<summary align="center"><b>>_ modo_nerd.exe (clique pra abrir)</b></summary>
+<summary align="center"><b>Off Topic (clique pra abrir)</b></summary>
 
 <br/>
 
