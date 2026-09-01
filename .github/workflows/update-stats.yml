@@ -14,13 +14,39 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      - name: Baixar os SVGs mais recentes
+      # Gera o stats.svg dentro da própria Action, sem depender do
+      # serviço público (que está pausado permanentemente pelo dono)
+      - name: Gerar stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=dracula&bg_color=000000&title_color=00F0FF&icon_color=00F0FF&text_color=C9D1D9&border_color=0A1A2F&hide_border=true
+          path: assets/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Gerar top-langs card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=dracula&bg_color=000000&title_color=00F0FF&text_color=C9D1D9&border_color=0A1A2F&hide_border=true
+          path: assets/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Gera o troféu dentro da Action também (menos oficial que a de cima,
+      # mas documentada no próprio projeto ryo-ma/github-profile-trophy)
+      - name: Gerar trophy card
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: ${{ github.repository_owner }}
+          output_path: assets/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # O streak-stats.demolab.com já funcionou nos nossos testes,
+      # então mantém via curl mesmo (com retry por segurança)
+      - name: Baixar streak
         run: |
           mkdir -p assets
-          curl --retry 4 --retry-delay 8 --retry-all-errors -sf "https://github-readme-stats.vercel.app/api?username=Miguel-doVale&show_icons=true&theme=dracula&bg_color=000000&title_color=00F0FF&icon_color=00F0FF&text_color=C9D1D9&border_color=0A1A2F&hide_border=true" -o assets/stats.svg || echo "stats.svg falhou, mantendo o anterior"
-          curl --retry 4 --retry-delay 8 --retry-all-errors -sf "https://github-readme-stats.vercel.app/api/top-langs/?username=Miguel-doVale&layout=compact&theme=dracula&bg_color=000000&title_color=00F0FF&text_color=C9D1D9&border_color=0A1A2F&hide_border=true" -o assets/top-langs.svg || echo "top-langs.svg falhou, mantendo o anterior"
-          curl --retry 4 --retry-delay 8 --retry-all-errors -sf "https://streak-stats.demolab.com?user=Miguel-doVale&theme=dracula&background=000000&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF&border=0A1A2F&hide_border=true" -o assets/streak.svg || echo "streak.svg falhou, mantendo o anterior"
-          curl --retry 4 --retry-delay 8 --retry-all-errors -sf "https://github-profile-trophy.vercel.app/?username=Miguel-doVale&theme=darkhub&no-frame=true&row=1&column=6&margin-w=10" -o assets/trophy.svg || echo "trophy.svg falhou, mantendo o anterior"
+          curl --retry 4 --retry-delay 8 --retry-all-errors -sf "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=dracula&background=000000&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF&border=0A1A2F&hide_border=true" -o assets/streak.svg || echo "streak.svg falhou, mantendo o anterior"
 
       - name: Commitar só se algo mudou
         run: |
