@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0A1A2F,100:00F0FF&height=220&section=header&text=Sun_Akuma&fontSize=58&fontColor=00F0FF&animation=fadeIn&fontAlignY=38&desc=Miguel%20Victor%20%7C%20Software%20Engineering%20%40%20UNDB&descAlignY=58&descAlign=50" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2600&pause=700&color=00F0FF&center=true&vCenter=true&width=650&lines=root%40sun_akuma%3A~%24+whoami;Miguel+Victor+%2F%2F+Software house -+%26+LADG -+%40+LARP;root%40sun_akuma%3A~%24+uname+-a;Linux+%E2%80%94+always+running" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2600&pause=700&color=00F0FF&center=true&vCenter=true&width=650&lines=root%40sun_akuma%3A~%24+whoami;Miguel+Victor+%2F%2F+Software house+%26+LADG+%40+LARP;root%40sun_akuma%3A~%24+uname+-a;Linux+%E2%80%94+always+running" alt="Typing SVG" />
 
 <br/>
 
