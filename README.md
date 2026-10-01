@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0A1A2F,100:00F0FF&height=220&section=header&text=Sun_Akuma&fontSize=58&fontColor=00F0FF&animation=fadeIn&fontAlignY=38&desc=Miguel%20Victor%20%7C%20Software%20Engineering%20%40%20UNDB&descAlignY=58&descAlign=50" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2600&pause=700&color=00F0FF&center=true&vCenter=true&width=650&lines=root%40sun_akuma%3A~%24+whoami;Miguel+Victor+%2F%2F+Software house+%26+LADG+%40+LARP;root%40sun_akuma%3A~%24+uname+-a;Linux+%E2%80%94+always+running" alt="Typing SVG" />
+<img src="assets/terminal.svg" width="650" alt="root@sun_akuma:~$ whoami — Miguel Victor // Software House · LADG · LARP"/>
 
 <br/>
 
@@ -22,7 +22,7 @@ class Miguel:
     def __init__(self):
         self.handle    = "Sun_Akuma"
         self.formacao  = "Eng. de Software @ UNDB"
-        self.ligas     = ["LADG", "LARP"]
+        self.orgs      = ["Software House", "LADG", "LARP"]
         self.setup     = "Linux"
         self.foco      = "full-stack + robótica + cibersegurança"
 
@@ -30,10 +30,52 @@ class Miguel:
         return "Always On Top"
 ```
 
-🎮 Ligante na **LADG** e gestor na **LARP** e na **SH**, dentro do ecossistema de ligas da UNDB
+💻 Gestor e dev full stack na **Software House**, gestor geral e financeiro da **LARP** e ligante da **LADG**
 🤖 **Hardware e Robótica** — muito além de só código na tela
 🐧 **Linux** no dia a dia
 🔐 Trilha de **cibersegurança** em andamento, com foco em desenvolvimento na área
+
+<br/>
+
+## `>_` Projetos em destaque
+
+<div align="center">
+
+### 🛍️ Amira Beauty — E-commerce
+
+Loja virtual em produção desenvolvida para cliente pela DMG (Damage Group), grupo de desenvolvimento que cofundei.<br/>
+Atuei no front-end, no back-end e nos testes dos fluxos de compra e checkout.
+
+![Full Stack](https://img.shields.io/badge/Full_Stack-000000?style=flat-square&logoColor=00F0FF)
+![QA](https://img.shields.io/badge/QA-000000?style=flat-square&logoColor=00F0FF)
+
+<a href="https://amirabeauty.com.br"><img src="https://img.shields.io/badge/ver_ao_vivo-amirabeauty.com.br-00F0FF?style=for-the-badge&labelColor=000000"/></a>
+
+<br/><br/>
+
+### 🎯 IT Works UNDB — Plataforma de Gamificação
+
+Plataforma de gamificação do IT Works, evento de palestras da Escola de Tecnologia da UNDB.<br/>
+Desenvolvi toda a interface, responsiva em desktop e mobile.
+
+![Front-end](https://img.shields.io/badge/Front--end-000000?style=flat-square&logoColor=00F0FF)
+
+<a href="https://itworks-undb.vercel.app"><img src="https://img.shields.io/badge/ver_ao_vivo-itworks--undb-00F0FF?style=for-the-badge&labelColor=000000"/></a>
+
+<br/><br/>
+
+### 🗳️ Washington Rio Branco 4343 — Site de Campanha
+
+Site de campanha eleitoral feito para cliente, do desenvolvimento à publicação (domínio e deploy na Vercel).
+
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=flat-square&logo=html5&logoColor=00F0FF)
+![CSS3](https://img.shields.io/badge/CSS3-000000?style=flat-square&logo=css&logoColor=00F0FF)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=00F0FF)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=00F0FF)
+
+<a href="https://washington-4343.vercel.app"><img src="https://img.shields.io/badge/ver_ao_vivo-washington--4343-00F0FF?style=for-the-badge&labelColor=000000"/></a>
+
+</div>
 
 <br/>
 
@@ -123,8 +165,6 @@ class Miguel:
 
 </div>
 
-> 🔧 *Essas 3 imagens são geradas pela Action `update-stats.yml` e salvas aqui no repo — não dependem do serviço externo estar no ar no momento em que alguém visita seu perfil.*
-
 <br/>
 
 ## `>_` Contribution Snake
@@ -134,8 +174,6 @@ class Miguel:
 <img src="https://raw.githubusercontent.com/Miguel-doVale/Miguel-doVale/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 
 </div>
-
-> ⚠️ *Precisa de um GitHub Action rodando no seu repo de perfil — te passo o setup quando quiser.*
 
 <br/>
 
@@ -151,13 +189,13 @@ class Miguel:
 
 <img src="assets/sh_logo.png" width="110"/>
 
-**Gestor** — escritório-escola da UNDB
+**Gestor e Dev Full Stack** — empresa-escola de software da UNDB
 
-- Alunos desenvolvem sites, apps e sistemas sob medida, incluindo clientes reais (ex: EMAP/Porto do Itaqui)
-- Organização por squads de projeto, com formações internas (React Native + Expo, UX) e oficinas externas
-- Realiza o IT Games (campeonato de Valorant) e o IT Works (ciclo de palestras)
+- Gestão e desenvolvimento de sites, apps e sistemas para clientes reais, em squads por projeto
+- Desenvolvi a interface da plataforma de gamificação do IT Works, evento de palestras da Escola de Tecnologia
 
 ![SH](https://img.shields.io/badge/gestor-FF2E9F?style=for-the-badge&logoColor=white)
+![SH](https://img.shields.io/badge/dev_full_stack-FF2E9F?style=for-the-badge&logoColor=white)
 
 <br/><br/>
 
@@ -169,9 +207,9 @@ class Miguel:
 
 **Ligante** — Liga Acadêmica de Desenvolvimento de Games, "Level Up Your Dreams"
 
-- Criação de jogos do conceito à publicação: programação, arte, narrativa e gestão
-- Organiza a UNDB GameJam e participa do IT Games e do Giro de Profissões
-- Projeto de destaque: **"Caçadores de Verdades"**, jogo educativo sobre fake news levado a escolas públicas, com patrocínio do Governo do MA
+- 🏆 **1º lugar** na categoria de jogos digitais
+- Monitor da **UNDB GameJam**
+- Fundei a integração acadêmica entre as ligas de jogos da **UNDB, UFMA e CEUMA**
 
 ![LADG](https://img.shields.io/badge/ligante-6C2BD9?style=for-the-badge&logoColor=white)
 
@@ -183,11 +221,10 @@ class Miguel:
 
 <img src="assets/larp_logo.png" width="110"/>
 
-**Gestor** — Liga Acadêmica de Robótica e Programação
+**Gestor Geral e Financeiro** — Liga Acadêmica de Robótica e Programação
 
-- Projetos práticos de robótica, eletrônica e automação, com aulas internas ministradas pelos próprios membros
-- Oficinas de Robô Sumô com LEGO Mindstorms/EV3, em parceria com Phoenix Robot/SESI
-- Prêmio de melhor short paper no Encontro Científico UNDB, com pesquisa em robótica educacional
+- Gestão geral da liga: organização das atividades e dos membros
+- Gestão financeira: controle dos recursos da liga
 
 ![LARP](https://img.shields.io/badge/gestor-F2B705?style=for-the-badge&logoColor=black)
 
