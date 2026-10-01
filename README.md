@@ -145,7 +145,7 @@ class Miguel:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:b50067,100:E30613&height=60&text=SOFTWARE%20HOUSE&fontSize=20&fontColor=FFFFFF&fontAlignY=65"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:b50067,100:06c2e3&height=60&text=SOFTWARE%20HOUSE&fontSize=20&fontColor=FFFFFF&fontAlignY=65"/>
 
 <br/><br/>
 
