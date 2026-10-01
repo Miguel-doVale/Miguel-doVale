@@ -22,16 +22,14 @@ class Miguel:
     def __init__(self):
         self.handle    = "Sun_Akuma"
         self.formacao  = "Eng. de Software @ UNDB"
-        self.papel_dmg = "Co-founder · CFO"
         self.ligas     = ["LADG", "LARP"]
         self.setup     = "Linux"
-        self.foco      = "financeiro técnico + robótica + cibersegurança"
+        self.foco      = "full-stack + robótica + cibersegurança"
 
     def __repr__(self):
         return "Always On Top"
 ```
 
-🏢 Co-fundador da **[DMG — Damage Group](#)**, atuando como **CFO** — finanças, infra e decisões técnicas do grupo
 🎮 Ligante na **LADG** e gestor na **LARP** e na **SH**, dentro do ecossistema de ligas da UNDB
 🤖 **Hardware e Robótica** — muito além de só código na tela
 🐧 **Linux** no dia a dia
@@ -148,22 +146,6 @@ class Miguel:
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B0000,100:E30613&height=60&text=DMG%20—%20DAMAGE%20GROUP&fontSize=20&fontColor=FFFFFF&fontAlignY=65"/>
-
-<br/><br/>
-
-<img src="assets/dmg_logo.jpg" width="110"/>
-
-**Co-founder · CFO** — finanças, infraestrutura e decisões técnicas do grupo
-
-- Um dos três fundadores, também atuando como Gerente de TI e Financeiro
-- Grupo trabalha na própria sala da Software House (SH), dentro da UNDB
-- Foco em desenvolver produtos próprios e prestar serviços de software para clientes reais
-
-![DMG](https://img.shields.io/badge/status-ativo-E30613?style=for-the-badge&logoColor=white)
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0A,100:1A1A1A&height=60&text=SOFTWARE%20HOUSE%20UNDB&fontSize=20&fontColor=00E5FF&fontAlignY=65"/>
 
 <br/><br/>
 
